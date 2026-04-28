@@ -7,7 +7,7 @@ import { Points, PointMaterial } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 
 function ParticleField(props: any) {
-  const ref = useRef<any>();
+  const ref = useRef<any>(null);
   const sphere = useMemo(() => {
     try {
       const p = random.inSphere(new Float32Array(5001), { radius: 1.5 }) as Float32Array;
