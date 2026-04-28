@@ -51,7 +51,7 @@ const containerVariants = {
 
 const itemVariants = {
   hidden: { opacity: 0, y: 30, scale: 0.95 },
-  visible: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.6, type: "spring", bounce: 0.4 } },
+  visible: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.6, type: "spring" as const, bounce: 0.4 } },
 };
 
 export default function Experience() {
