@@ -41,10 +41,7 @@ export default function Navbar() {
             <span className="text-xl font-display font-bold tracking-tight leading-none">
               ROBE<span className="text-primary">.</span>M
             </span>
-            <span className="text-[8px] font-bold text-primary flex items-center gap-1 uppercase tracking-tighter mt-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-              12 Guests Online
-            </span>
+
           </div>
         </Link>
 
